@@ -44,7 +44,7 @@ def selective_tweet_shortener(tweet)
       phrase
     end
   end
-end 
+end
 
 def shortened_tweet_truncator(tweet)
   tweet.split(" ").map do |phrase|
